@@ -1,0 +1,16 @@
+C:\Users\mustafa.eraslan\source\repos\arvatonet\arvatonet\bin\Debug\net5.0\arvatonet.exe
+C:\Users\mustafa.eraslan\source\repos\arvatonet\arvatonet\bin\Debug\net5.0\arvatonet.deps.json
+C:\Users\mustafa.eraslan\source\repos\arvatonet\arvatonet\bin\Debug\net5.0\arvatonet.runtimeconfig.json
+C:\Users\mustafa.eraslan\source\repos\arvatonet\arvatonet\bin\Debug\net5.0\arvatonet.runtimeconfig.dev.json
+C:\Users\mustafa.eraslan\source\repos\arvatonet\arvatonet\bin\Debug\net5.0\arvatonet.dll
+C:\Users\mustafa.eraslan\source\repos\arvatonet\arvatonet\bin\Debug\net5.0\ref\arvatonet.dll
+C:\Users\mustafa.eraslan\source\repos\arvatonet\arvatonet\bin\Debug\net5.0\arvatonet.pdb
+C:\Users\mustafa.eraslan\source\repos\arvatonet\arvatonet\obj\Debug\net5.0\arvatonet.csproj.AssemblyReference.cache
+C:\Users\mustafa.eraslan\source\repos\arvatonet\arvatonet\obj\Debug\net5.0\arvatonet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mustafa.eraslan\source\repos\arvatonet\arvatonet\obj\Debug\net5.0\arvatonet.AssemblyInfoInputs.cache
+C:\Users\mustafa.eraslan\source\repos\arvatonet\arvatonet\obj\Debug\net5.0\arvatonet.AssemblyInfo.cs
+C:\Users\mustafa.eraslan\source\repos\arvatonet\arvatonet\obj\Debug\net5.0\arvatonet.csproj.CoreCompileInputs.cache
+C:\Users\mustafa.eraslan\source\repos\arvatonet\arvatonet\obj\Debug\net5.0\arvatonet.dll
+C:\Users\mustafa.eraslan\source\repos\arvatonet\arvatonet\obj\Debug\net5.0\ref\arvatonet.dll
+C:\Users\mustafa.eraslan\source\repos\arvatonet\arvatonet\obj\Debug\net5.0\arvatonet.pdb
+C:\Users\mustafa.eraslan\source\repos\arvatonet\arvatonet\obj\Debug\net5.0\arvatonet.genruntimeconfig.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KUstARAZEkKvnFnab57qULjlM7pBvFqEIGK7d/ViYbGsSfXa3PyS4CM7rjQfcEVZ4pzO2bTpJqTn1+09hbyB7Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mustafa.eraslan\\source\\repos\\arvatonet\\arvatonet\\arvatonet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mustafa.eraslan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
