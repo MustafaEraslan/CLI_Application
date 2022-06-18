@@ -1,7 +1,6 @@
 # CLI_Application
 
 # MustafaEraslan
-Mustafa Eraslan CLI Odevi
 
 Merhabalar,
 
