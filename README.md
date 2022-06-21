@@ -2,39 +2,33 @@
 
 # MustafaEraslan
 
-Merhabalar,
+Hello,
 
-Alt bölümdeki gereklilikleri sağlayan bir CLI ugulamasını tamamlamış bulunuyorum.
-İlk açılışta tc alır.
-Eğer arrayde mevcuta tanımlıysa müşterinin ismi ekrana gelir, yoksa yeni müşteri kayıt ekranı gelir.(ad,soyad,gsm,vb.)
-Satılacak ürün seçlir,adet seçilir.(hayal gücünüze göre rengi,indirimi falan seçilebilir.)
-Kayıt alındı der ve siparişleri listeler.
+I have completed a CLI application that meets the requirements in the subsection. Gets tc on first boot. If existing is defined in the array, the customer's name is displayed, otherwise the new customer registration screen is displayed. (name, surname, gsm, etc.) The product to be sold is selected, the quantity is selected. 
 
-Uygulama console ekranı ise şu şekilde;
+The application console screen is as follows;
 
-Eğer kullanıcıdan girilen tc kimlik numarası 11 haneli değilse veya 0 rakamı ile başlıyorsa bu durumda tekrar denemeniz ve kaç hane girdiyseniz o console ekranında uyarı olarak basılıyor.
+If the TR ID number entered from the user is not 11 digits or starts with the number 0, then you need to try again and the number of digits you entered is displayed as a warning on the console screen.
 
 ![image](https://user-images.githubusercontent.com/44713722/174433153-985351a0-7553-44a9-be03-a7c71831b2ae.png)
 
-Diğer taraftan eğer Dictionary yapısıında bulunmayan bir tc girdiyseniz bu durumda kulancıyı kaydetmeniz için sizden ad, soyad, gsm bilgileri alınıyor ve başarılı bir şekilde kaydedildi mesajını console ekranına fırlatıyor. Ardından ürünleri listeliyor ve seçim yapmanız isteniyor. Daha sonrasında productcode bilgisi ile birlikte adet bilgisi de isteniliyor. Eğer ProductCode programın generate ettiği bir değer değilse tekrar denenemeniz isteniliyor. Eğer productCode doğru ise program bir sonraki aşamaya düşüyor ve stok bilgisini soruyor. Burada tekrar stok bilgisinde bir kontrol mevcut. Eğer stok bilgisi daha küçükse tekrar değer girilmesi isteniliyor.
+On the other hand, if you have entered a tc that is not in the Dictionary structure, then your name, surname, gsm information is taken from you to save the user, and it throws the successfully saved message to the console screen. Then it lists the products and you are asked to choose. Then, along with the productcode information, the quantity information is also requested. If the ProductCode is not a value that the program generates, you are asked to try again. If the productCode is correct, the program goes to the next stage and asks for stock information. Here again there is a check on stock information. If the stock information is smaller, it is requested to enter the value again.
 
 ![image](https://user-images.githubusercontent.com/44713722/174433085-5a155904-ab15-4335-9fb8-9cbf446541e9.png)
 
-Eğer girilen tc sistemde mevcutsa ilk önce o numaraya ait isim yazdırılıyor ardından ürünler listeleniyor. Bir önceki adımdaki ürün detayları tekrarlanıyor.
+If the entered tc is available in the system, first the name of that number is printed, then the products are listed. The product details from the previous step are repeated.
 
 ![image](https://user-images.githubusercontent.com/44713722/174432454-98e71b0d-5362-422a-8eaf-d75334cea3bf.png)
 
-O halde projeyi nasıl tamamladığımı, kullandığım metedoloji ve yöntemlerden bahsetmeye başlıyorum.
+So I'm starting to talk about how I completed the project, the methodology and methods I used.
 
-Projedeki tüm adımları görebilmek ve kullandığım yapıları seçebilmek için algoritmamımı belirledim.
+I determined my algorithm so that I could see all the steps in the project and select the structures I used.
 
-Uygulama için herhangi bir database kullanılması istenilmemişti ve bende bu sebeple Dictionary yapısını tercih ettim. Dictionary yapısı ile kayıtlı memberları isim bilgileri ile beraber kayıt etmiş oldum. Araştırmalarımda validasyon'u kullanmanın önemli olduğunu kullanıcıdan istediğimi değeri alıp almadığımız sorularına yanıt bulabileceğimiz yapılar olduğunu görmüş oldum ve bende kullanmayı tercih ettim.
+It was not desired to use any database for the application and for this reason I preferred the Dictionary structure. With the Dictionary structure, I registered the registered members with their name information. In my research, I realized that it is important to use validation and that there are structures where we can find answers to the questions of whether we get the value I want from the user, and I chose to use it.
 
-Diğer taraftan, ürünler için 32 karakterli unique bir değer generate ettim. Burada ürünlere kendim de değer verebilirdim fakat ilerleyen süreçlerde bu şekilde bir yapıyı kullanmanın önemli olduğunu düşündüğüm için projeme dahil etmeye karar verdim. Ek olarak personel, product ve order için tanımlamalarımı program.cs yerine ayrı bir sınıf açarak kullanmayı ve projemi daha görünür bir hale getirmeyi denedim. Nerelerde validasyon kullanmam gerektiğine karar verdim ve bu adımdan sonra kod yazmaya başladım ve projemi tamamlamış oldum.
+On the other hand, I generated a unique 32-character value for the products. I could have valued the products myself here, but I decided to include them in my project because I thought it was important to use such a structure in the future. In addition, I tried to use my definitions for personnel, product and order by opening a separate class instead of program.cs and making my project more visible. I decided where I should use validation and after this step I started to write code and completed my project.
 
-Teşekkürler,
-Sevgiler,
-
+Thanks, 
 
 
 
