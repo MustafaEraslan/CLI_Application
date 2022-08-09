@@ -1,7 +1,7 @@
 # CLI_Application
 
 # MustafaEraslan
-
+ 
 Hello,
 
 I have completed a CLI application that meets the requirements in the subsection. Gets tc on first boot. If existing is defined in the array, the customer's name is displayed, otherwise the new customer registration screen is displayed. (name, surname, gsm, etc.) The product to be sold is selected, the quantity is selected. 
